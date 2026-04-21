@@ -1,0 +1,25 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "Piyush Dawande",
+    "email": "dawande.piyush@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal-first Claude Code plugin marketplace",
+    "version": "0.1.0",
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "gtd-audit",
+      "source": "./gtd-audit",
+      "description": "Audits any task list against the 5 core GTD principles with full audit and principle deep-dive modes",
+      "version": "1.0.0",
+      "author": {
+        "name": "Piyush Dawande"
+      },
+      "license": "MIT",
+      "keywords": ["gtd", "productivity", "tasks", "audit"]
+    }
+  ]
+}
