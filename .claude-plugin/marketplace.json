@@ -11,15 +11,15 @@
   },
   "plugins": [
     {
-      "name": "gtd-audit",
-      "source": "./gtd-audit",
-      "description": "Audits any task list against the 5 core GTD principles with full audit and principle deep-dive modes",
+      "name": "tasklist-checkup",
+      "source": "./tasklist-checkup",
+      "description": "Audits your task list across 5 dimensions and helps you work through them interactively",
       "version": "1.0.0",
       "author": {
         "name": "Piyush Dawande"
       },
       "license": "MIT",
-      "keywords": ["gtd", "productivity", "tasks", "audit"]
+      "keywords": ["tasks", "productivity", "checkup", "gtd"]
     }
   ]
 }

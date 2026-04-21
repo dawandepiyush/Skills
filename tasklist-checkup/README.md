@@ -1,20 +1,22 @@
-# gtd-audit
+# tasklist-checkup
 
-A Claude skill that audits any task list against the 5 core principles of Getting Things Done (GTD) — and helps you work through them interactively.
+A Claude skill that checks up on your task list across 5 dimensions — and helps you work through them interactively.
 
 Works with Things 3, Todoist, Notion, Linear, plain text, uploaded files, or anything pasted into chat.
+
+> Inspired by *Getting Things Done* by David Allen. The five review dimensions (Capture, Clarify, Organize, Reflect, Engage) are drawn from the GTD methodology.
 
 ---
 
 ## What it does
 
-**Full Audit** — Run all 5 GTD principles against your task list and get a health report with a score per principle, flagged tasks, and a recommended starting point.
+**Full Checkup** — Run all 5 dimensions against your task list and get a health report with a score per dimension, flagged tasks, and a recommended starting point.
 
-**Principle Deep-Dive** — Pick one principle and work through it collaboratively. Claude flags the relevant tasks and walks through them with you one by one.
+**Dimension Deep-Dive** — Pick one dimension and work through it collaboratively. Claude flags the relevant tasks and walks through them with you one by one.
 
-The 5 principles covered:
+The 5 dimensions covered:
 
-| Principle | What gets audited |
+| Dimension | What gets checked |
 |---|---|
 | 📥 **Capture** | Tasks hiding uncaptured sub-tasks; ideas not yet externalized |
 | ✏️ **Clarify** | Vague verbs, noun-only tasks, no clear next action |
@@ -29,8 +31,8 @@ The 5 principles covered:
 Once installed, just talk naturally. The skill auto-triggers on phrases like:
 
 ```
-"Audit my tasks"
-"Let's do a GTD review"
+"Check up on my tasks"
+"Let's review my task list"
 "Help me review my todo list"
 "What should I work on?"
 "Let's work on clarify"
@@ -42,8 +44,8 @@ Once installed, just talk naturally. The skill auto-triggers on phrases like:
 If you have a todo app connected via MCP (e.g. Things 3, Todoist), Claude will auto-detect it and pull your tasks directly — no copy-pasting needed.
 
 ```
-You: "Audit my tasks"
-Claude: [fetches from connected app, runs full audit]
+You: "Check up on my tasks"
+Claude: [fetches from connected app, runs full checkup]
 ```
 
 If multiple todo apps are connected, Claude will ask which one to use.
@@ -54,23 +56,23 @@ Any format works:
 
 ```
 You: "Here's my task list — [paste]"
-Claude: [runs audit on pasted content]
+Claude: [runs checkup on pasted content]
 ```
 
 Supported formats: markdown checklists, plain numbered lists, CSV exports from Things/Todoist/Notion, or just a brain dump.
 
 ### With a file
 
-Attach a `.txt`, `.md`, or `.csv` export and ask for an audit.
+Attach a `.txt`, `.md`, or `.csv` export and ask for a checkup.
 
 ---
 
 ## Example interaction
 
 ```
-You: Audit my tasks
+You: Check up on my tasks
 
-Claude: ## GTD Health Report — April 20, 2026
+Claude: ## Task List Health Report — April 21, 2026
 
 ### 📥 Capture — Fair
 8 inbox items, 2 hiding sub-tasks. "Website redesign" and "Immigration" 
@@ -121,7 +123,7 @@ Should work with any MCP-connected task manager:
 - Apple Reminders
 - TickTick
 
-If your app isn't MCP-connected, paste or upload your list — the audit works the same way.
+If your app isn't MCP-connected, paste or upload your list — the checkup works the same way.
 
 ---
 

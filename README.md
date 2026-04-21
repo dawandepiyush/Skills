@@ -12,4 +12,4 @@ A personal Claude Code plugin marketplace by [Piyush Dawande](https://github.com
 
 | Plugin | Description |
 |--------|-------------|
-| [gtd-audit](./gtd-audit) | Audits any task list against the 5 core GTD principles |
+| [tasklist-checkup](./tasklist-checkup) | Checks up on your task list across 5 dimensions and helps you work through them |

@@ -1,0 +1,10 @@
+{
+  "name": "tasklist-checkup",
+  "description": "Audits your task list across 5 dimensions and helps you work through them interactively",
+  "version": "1.0.0",
+  "author": {
+    "name": "Piyush Dawande",
+    "email": "dawande.piyush@gmail.com"
+  },
+  "license": "MIT"
+}
