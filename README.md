@@ -1,6 +1,6 @@
 # Skills
 
-A personal Claude Code plugin marketplace by [Piyush Dawande](https://github.com/dawandepiyush).
+A Claude Code plugin marketplace by [Piyush Dawande](https://github.com/dawandepiyush) based on use cases that I have observed in my work and personal setting.
 
 ## Install
 
