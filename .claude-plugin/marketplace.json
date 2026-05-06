@@ -20,6 +20,17 @@
       },
       "license": "MIT",
       "keywords": ["tasks", "productivity", "checkup", "gtd"]
+    },
+    {
+      "name": "thought-partner",
+      "source": "./thought-partner",
+      "description": "Transforms rambling thoughts into well-contextualized, actionable tasks through interactive clarification",
+      "version": "1.0.0",
+      "author": {
+        "name": "Piyush Dawande"
+      },
+      "license": "MIT",
+      "keywords": ["thoughts", "capture", "clarify", "gtd", "braindump"]
     }
   ]
 }

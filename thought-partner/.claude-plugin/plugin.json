@@ -1,0 +1,10 @@
+{
+  "name": "thought-partner",
+  "description": "Transforms rambling thoughts into well-contextualized, actionable tasks through interactive clarification",
+  "version": "1.0.0",
+  "author": {
+    "name": "Piyush Dawande",
+    "email": "dawande.piyush@gmail.com"
+  },
+  "license": "MIT"
+}
